@@ -1,56 +1,116 @@
 /* *{
-    border: dotted;
+  border: dotted;
 } */
-body{
-    /* background-image: url(image/paper.jpg); */
-    background-size: cover;
-    text-align: center;
-    margin: 0;
+body {
+  /* background-image: url(image/paper.jpg); */
+  background-size: cover;
+  background-color: lightgray;
+  text-align: center;
+  margin: 0;
 }
 
-h1{
-    color: #08D9D6;
-    font-family: "Sofia", sans-serif;
-    font-size: 2rem;
-    margin: 20px auto 0 auto;
-}
-p{
-    color: #08D9D6;
-    font-family: "Sofia", sans-serif;
-    margin-top: 10px;
-}
-
+/* ----------------------------allpage-Un-orderd-list--------------------- */
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 10%;
-    background-color: #08D9D6;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    text-align :center;
-  }
-  
-  li a {
-    display: block;
-    color: #ffffff;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  li a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #0cc4f1;
-    color: white;
-  }
+  background-color: #08D9D6;
+  height: 100%;
+  list-style-type: none;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+  position: fixed;
+  text-align: center;
+  width: 25%;
+}
 
-.containt{
-    margin-left:10%;
-    padding:1px 16px;
-    height:1000px;
+li a {
+  display: block;
+  color: #ffffff;
+  padding: 15px 16px;
+  text-decoration: none;
+  position: relative;
+  top: 15rem;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #0cc4f1;
+  color: white;
+  font-size: 1.2rem;
+}
+
+/* -------------------------------all-div-Containt--------------------- */
+
+.containt {
+  margin-left: 26%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+h1 {
+  color: #08D9D6;
+  font-family: "Sofia", sans-serif;
+  font-size: 2rem;
+  margin: 20px auto 0 auto;
+}
+
+p {
+  color: #04a8a6;
+  font-family: "Sofia", sans-serif;
+  font-size: 1.2rem;
+  margin: 10px auto 0 auto;
+}
+
+hr {
+  color: grey;
+  border-width: 5px;
+  width: 10%;
+  border-style: none;
+  border-top-style: dotted;
+}
+
+/* -----------------------------------index-skill--------------------- */
+
+.skill p {
+  margin-bottom: 2rem;
+}
+
+h3 {
+  margin: 20px auto 0 auto;
+}
+
+.skill-img {
+  width: 3rem;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 2rem 12rem;
+}
+
+/* -----------------------------------hobbie-page--------------------- */
+
+.hobbie {
+  text-align: left;
+}
+
+ol {
+  color: #146C94;
+  font-size: 1.3rem;
+  list-style-type: none;
+  margin-top: 3rem;
+  margin-left: -0.8rem;
+}
+
+ol li {
+  padding: 0.5rem;
+}
+
+img {
+  width: 80%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
